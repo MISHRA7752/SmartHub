@@ -1,4 +1,4 @@
-# SmartLoad Optimization API
+# SmartHub Optimization API
 
 A stateless microservice built in Go that optimizes truck loads by selecting the most profitable combination of orders while respecting weight, volume, and compatibility constraints.
 
@@ -27,7 +27,7 @@ A stateless microservice built in Go that optimizes truck loads by selecting the
 1. Clone the repository:
    ```bash
    git clone git@github.com:MISHRA7752/SmartHub.git
-   cd SmartLoad
+   cd SmartHub
    ```
 
 2. Start the service:
@@ -41,8 +41,8 @@ A stateless microservice built in Go that optimizes truck loads by selecting the
    
    If neither works, you can build and run manually:
    ```bash
-   docker build -t smartload .
-   docker run -p 8080:8080 smartload
+   docker build -t smarthub .
+   docker run -p 8080:8080 smarthub
    ```
 
    The service will start on port `8080`.
