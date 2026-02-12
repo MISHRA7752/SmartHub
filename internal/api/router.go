@@ -12,8 +12,6 @@ func NewRouter(h *OptimizationHandler) http.Handler {
 
 	// Health check
 	mux.HandleFunc("/healthz", h.HealthCheck)
-	// Also support actuator style for compatibility
-	mux.HandleFunc("/actuator/health", h.HealthCheck)
 
 	return mux
 }
