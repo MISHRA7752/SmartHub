@@ -26,7 +26,7 @@ A stateless microservice built in Go that optimizes truck loads by selecting the
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:MISHRA7752/SmartHub.git
    cd SmartLoad
    ```
 
